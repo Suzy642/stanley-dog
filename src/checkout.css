@@ -1,0 +1,109 @@
+body {
+  padding-bottom: 100px;
+  margin-bottom: 150px;
+}
+
+.provide-head{
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.shippingnote {
+  font-size: 10px;
+  text-align: center;
+  font-family: italic;
+}
+.form {
+  margin-top: 10px;
+  background-color: transparent;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
+  position: absolute;
+  left: 260px;
+}
+@media (max-width: 370px){
+  .form {
+  position: absolute;
+  left: 20px;
+  }
+}
+.edit {
+  padding: 5px;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  text-align: right;
+  background-color: lightgray;
+  margin-left: 100px;
+}
+.gap {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin-top: 10px;
+}
+.p {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+.container {
+  background-color: #F0F0F0;
+  color: black;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  left: 260px;
+  margin-top: 560px;
+  margin-bottom: 500px;
+  box-shadow: 0px 7px 10px auto;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  padding: 20px;
+  width: 370px;
+}
+@media (max-width: 370px){
+  .container {
+  position: absolute;
+  left: 20px;
+  margin-top: 560px;
+  padding: 20px;
+  }
+}
+.payment-formation {
+  margin-top: 20px;
+}
+.cc {
+  width: 300px;
+  padding: 10px 5px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+  text-decoration: none;
+  font-weight: bold;
+}
+select {
+  width: 160px;
+  padding: 10px 5px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+.bottom {
+  margin-top: 200px;
+}
+.opps {
+  margin: 20px 0px;
+  font-size: 10px;
+}
+.sorry {
+  font-weight: bold;
+  font-size: 16px;
+}
+.contact {
+  color: blue;
+}

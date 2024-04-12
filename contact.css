@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  padding-top: 100px;
+  align-items: center;
+}
+
+.head {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 20px;
+  background-color: blue;
+  border: none;
+  
+}
+.direct-home {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+center{
+  font-size: 20px;
+  font-weight: bold;
+}
+.container {
+  text-align: center;
+  align-items: center;
+  border: 2px solid blue;
+  padding: 20px;
+  border-radius: 10px;
+}
+label {
+  font-weight: bold;
+  font-size: 17px;
+}
+input {
+  width: 230px;
+  height: 25px;
+}
+textarea {
+  width: 230px;
+}
+button {
+  border: none;
+  color: white;
+  padding: 15px 5px;
+  background-color: blue;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 160px;
+  margin-top: 20px;
+}
+button:active {
+  background-color: white;
+  color: blue;
+  border: 2px blue solid;
+}
+.bi-facebook {
+  color: blue;
+  margin: 10px;
+}
+
+.bi-whatsapp {
+  color: green;
+  margin: 10px;
+}
+.bi-instagram {
+  color: #FF00C4;
+  margin: 10px;
+}
+.social-container {
+  margin-top: 30px;
+}
+.social-link {
+  text-decoration: none;
+}

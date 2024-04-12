@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Shipping information 
+  </title>
+  <link rel="stylesheet" href="src/shipping.css">
+</head>
+
+<body>
+  <div class="head">
+    <a href="index.html">
+    <img src="">STANLEY'S PET 
+    </a>
+  </div>
+ <div class="shipping-info">
+   Shipping Information
+ </div>
+ 
+ <div class="provide">Please provide your shipping address</div>
+ <form action="https://formspree.io/f/mgegppee"
+  method="POST" class="form" id="form">
+   <div>
+     <label>First name:</label><br>
+     <input name="first-name" class="second-input" id="firstInfo" type="text" placeholder="Don" required>
+   </div>
+   <div>
+     <label>Last name:</label><br>
+     <input name="last-name" class="second-input" id="secondInfo" type="text" placeholder="John" required>
+   </div>
+    <div>
+      <label>Email address:</label><br>
+      <input name="email" class="second-input" id="thirdInfo" type="email" placeholder="donjohn@gmail.com" required>
+    </div> 
+    <div>
+      <label>Phone number:</label><br>
+     <input name="phone-number" class="second-input" id="fourInfo" type="tel" placeholder="+1000000000" required>
+    </div> 
+    <div>
+      <label>Address:</label><br>
+     <input name="address" class="second-input" id="fiveInfo" type="text" placeholder="Address" required>
+   </div> 
+   <div>
+     <label>City:</label><br>
+     <input name="city" class="second-input" id="sixInfo" type="text" placeholder="City" required>
+   </div> 
+   <div>
+     <label>State:</label><br>
+     <input name="state" class="second-input" id="sevenInfo" type="text" placeholder="State" required>
+   </div> 
+   <div>
+   <div>
+     <label>Zip code:</label><br>
+     <input name="zip-code" class="second-input" id="eightInfo" type="text" placeholder="0000" required>
+   </div> 
+   <div>
+     <label>Country:</label><br>
+     <input name="country" class="second-input" id="nineInfo" type="text" placeholder="Country" required>
+   </div> 
+   <div>
+     <button onclick="submit()">Proceed to Checkout</button>
+   </div>
+ </form>
+ </div>
+ 
+ <script src="src/send.js"></script>
+</body>
+
+</html>

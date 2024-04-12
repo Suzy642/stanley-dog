@@ -1,0 +1,366 @@
+/**
+* ! Changing default styles of the browser
+**/
+
+* {
+  margin: 0;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding-top: 40px;
+}
+.cname {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: blue;
+  padding: 20px 10px;
+  z-index: 5;
+}
+.direct-to-home {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bolder;
+}
+i {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/**
+* ! Navbar STyles are here
+**/
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 5px 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid blue;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 60px;
+  z-index: 2;
+}
+.pet {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.cart {
+  position: relative;
+  color: black;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.cartAmount {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+/**
+* ! Shop items styles are here
+**/
+
+.shop {
+ display: grid;
+  grid-template-columns: 170px 170px 170px 170px;
+  column-gap: 50px;
+  background-color: lightgray;
+  margin-top: 90px;
+  text-align: center;
+  padding: 20px;
+  width: 1000px;
+  padding-bottom: 200px;
+}
+
+@media (max-width: 380px) {
+  .shop {
+    text-align: center;
+  display: grid;
+  grid-template-columns: 170px 170px;
+  column-gap: 20px;
+  background-color: light-gray;
+  width: 380px;
+  padding: 20px;
+  }
+}
+
+.productImage {
+  width: 80px;
+}
+
+.item {
+  border: none;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  width: 170px;
+}
+
+@media(max-width: 360px){
+  .item {
+  border: none;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  width: 170px;
+  
+}
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.price {
+  align-items: center;
+}
+
+.buttons {
+  font-size: 16px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.bi-dash-lg {
+  color: white;
+  border-radius: 30px;
+  padding: 0px;
+  text-align: center;
+  background-color: red;
+}
+
+.bi-plus-lg {
+  color: green;
+  border-radius: 30px;
+  border: 1px solid green;
+  padding: 0px;
+  text-align: center;
+  background-color: white;
+}
+
+/**
+* ! style rules for label and some buttons
+**/
+
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.HomeBtn,
+.checkout,
+.removeAll {
+  background-color: #212529;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.checkout {
+  background-color: green;
+}
+.removeAll {
+  background-color: red;
+}
+.bi-x-lg {
+  color: red;
+  font-weight: bold;
+}
+
+/**
+* ! style rules for shopping-cart
+**/
+
+.shopping-cart {
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+  justify-content: center;
+  gap: 15px;
+}
+
+/**
+* ! style rules for cart-item
+**/
+
+.cart-item {
+  border: 2px solid #212529;
+  border-radius: 5px;
+  display: flex;
+}
+
+.title-price-x {
+  width: 195px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.title-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-item-price {
+  background-color: #212529;
+  color: white;
+  border-radius: 4px;
+  padding: 3px 6px;
+}
+.addcart {
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.addcart:active {
+  color: blue;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 20px;
+}
+center{
+  margin-top: 100px;font-size: 25px;
+  font-weight: bold;
+}
+.pcheck {
+  border: none;
+  color: white;
+  padding: 10px 5px;
+  background-color: blue;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.pcheck:active {
+  background-color: white;
+  color: blue;
+  border: 2px blue solid;
+}
+
+.form {
+  margin-top: 50px;
+  background-color: transparent;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 40px;
+  position: absolute;
+  left: 260px;
+}
+@media (max-width: 370px){
+  .form {
+  position: absolute;
+  left: 20px;
+  }
+}
+.edit {
+  padding: 5px;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  text-align: right;
+  background-color: lightgray;
+  margin-left: 100px;
+}
+.gap {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin-top: 10px;
+}
+.p {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+span {
+  text-align: left;
+}
+footer {
+  background-color: blue;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  padding: 30px;
+}
+.topbottom {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.stanleyinfo {
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+.reachus {
+  align-items: center;
+  text-align: center;
+  padding: 10px 5px;
+  color: blue;
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 30px;
+}
+.reachus:active {
+  background-color: blue;
+  color: white;
+  border: 2px white solid;
+}
+.reachuslink {
+  text-decoration: none;
+  color: blue;
+}
+.reachuslink:active {
+  color: white;
+  text-decoration: none;
+}
