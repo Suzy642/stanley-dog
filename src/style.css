@@ -93,7 +93,7 @@ a {
 
 .shop {
  display: grid;
-  grid-template-columns: 170px 170px 170px 170px;
+  grid-template-columns: 170px 170px 170px 170px 170px;
   column-gap: 50px;
   background-color: lightgray;
   margin-top: 90px;
